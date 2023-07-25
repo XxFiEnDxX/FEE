@@ -1,21 +1,48 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class = "box">
-        <div class = "box2">
-            <div class="box3">
-                <h1>Hey, Box Model!</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, deleniti!</p>
+    <div class="body">
+        <!-- header -->
+        <header>
+        <div class="logo">
+                <img src="./images/logo.svg">
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <!-- body -->
+        <div class="container">
+            <div class="box">
+                <div class="img">
+                    <img src="./images/image-product-desktop.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h1>Perfume</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, consequuntur!</p>
+                    <p>Price: Rs 150</p>
+                </div>
             </div>
         </div>
 
+        <!-- footer  -->
+        <div class="footer">
+            <p>Contact us at: example.com</p>
+        </div>
     </div>
 </body>
+
 </html>
